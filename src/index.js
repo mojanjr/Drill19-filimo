@@ -16,13 +16,13 @@ root.render(
         <MovieList data={comedy} title="کمدی" />
       </div>
     </div>
-    {/* <div className="filimo-box">
+    <div className="filimo-box">
       <div className="container2">
-        <VideoList first={filimoBox1} title="فیلیمو‌باکس چیست؟" />
-        <VideoList first={filimoBox2} title="فیلیمو‌باکس چیست؟" />
-        <VideoList first={filimoBox3} title="فیلیمو‌باکس چیست؟" />
+        <VideoList data={filimoBox1} title="فیلیمو‌باکس چیست؟" />
+        <VideoList data={filimoBox2} title="فیلیمو‌باکس چیست؟" />
+        <VideoList data={filimoBox3} title="فیلیمو‌باکس چیست؟" />
       </div>
-    </div> */}
+    </div>
   </div>
 );
 
