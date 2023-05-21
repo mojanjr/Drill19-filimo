@@ -1,0 +1,159 @@
+/* @font-face {
+    font-family: Vazir;
+    src: url('assets/fonts/vazir/Vazirmatn-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('assets/fonts/vazir/Vazirmatn-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+} */
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body {
+    direction: rtl;
+    margin: 0 auto;
+    background: #141518;
+    color: #fff;
+    font-family: vazir;
+    font-weight: 400;
+}
+h2 {
+    font-family: vazir;
+    font-weight: 900;
+}
+ul,
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    border-bottom: 2px solid #3f3f3f;
+    padding-bottom: 100px;
+}
+.filimo-box {
+    text-align: center;
+    position: relative;
+}
+.filimo-box .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+.filimo-box img.logo {
+    height: 45px;
+    width: auto;
+}
+.filimo-box h2 {
+    font-size: 22px;
+}
+.filimo-box p {
+    font-size: 16px;
+    color: #959ba2;
+    margin: 0;
+}
+.filimo-box button {
+    margin: 30px 0;
+    color: #f4843f;
+    font-size: 17px;
+    font-family: vazir;
+    background: rgba(251, 181, 60, 0.06);
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+.filimo-box button i {
+    margin-right: 10px;
+    color: #f89f3e;
+    font-size: 15px;
+}
+.filimo-box ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.filimo-box ul li {
+    position: relative;
+    border: 5px solid #000;
+    overflow: hidden;
+}
+.filimo-box ul li a img {
+    width: 370px;
+    display: block;
+    opacity: 0.7;
+    transition: all 0.4s;
+}
+.filimo-box ul li:hover a img {
+    transform: scale(1.1);
+}
+.filimo-box ul li a h3 {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 8px;
+    border-radius: 30px;
+    background: rgba(0 ,0 ,0 , 0.5);
+    white-space: nowrap;
+    font-weight: 100;
+    font-size: 13px;
+}
+.filimo-box ul li a .button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+}
+.filimo-box ul li a .button .border {
+    position: relative;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: rgba(0 ,0 ,0 , 0.5);
+    transition: all 0.3s;
+}
+.filimo-box ul li:hover a .button .border {
+    background: rgba(255, 255 ,255 , 0.2);
+}
+.filimo-box ul li a .button .fa-play {
+    position: absolute;
+    top: 37%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+}
+.filimo-box .arrows i {
+    position: absolute;
+    top: 62%;
+    width: 40px;
+    height: 40px;
+    background: rgba(6, 6, 6, 0.6);
+    border-radius: 50%;
+    color: #fff;
+    line-height: 40px;
+    font-size: 20px;
+}
+.filimo-box .arrows i.fa-angle-right {
+    right: 14%;
+}
+.filimo-box .arrows i.fa-angle-left {
+    left: 11%;
+} 

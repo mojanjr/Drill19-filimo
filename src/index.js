@@ -3,12 +3,27 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import {MovieList} from './components/movieList';
+import {VideoList} from './components/videoList';
+import {familial, drama, comedy, filimoBox1, filimoBox2, filimoBox3} from './data';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <div>
+    <div className="MoviesRow">
+      <div className="container1">
+        <MovieList data={familial} title="خانوادگی" />
+        <MovieList data={drama} title="درام" />
+        <MovieList data={comedy} title="کمدی" />
+      </div>
+    </div>
+    {/* <div className="filimo-box">
+      <div className="container2">
+        <VideoList first={filimoBox1} title="فیلیمو‌باکس چیست؟" />
+        <VideoList first={filimoBox2} title="فیلیمو‌باکس چیست؟" />
+        <VideoList first={filimoBox3} title="فیلیمو‌باکس چیست؟" />
+      </div>
+    </div> */}
+  </div>
 );
 
 // If you want to start measuring performance in your app, pass a function
