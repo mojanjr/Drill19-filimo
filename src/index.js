@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'font-awesome/css/font-awesome.min.css';
-import './index.css';
-import App from './App'
 import reportWebVitals from './reportWebVitals';
 import {MovieList} from './components/movieList';
 import {VideoList} from './components/videoList';
