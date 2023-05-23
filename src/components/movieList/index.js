@@ -24,7 +24,7 @@ export function MovieList(props) {
         })
     }
     return (
-        <div>
+        <div className="container1">
             <h1 className="title">{props.title}</h1>
             <ul>
                 {movieListSection()}
