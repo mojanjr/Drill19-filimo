@@ -252,7 +252,7 @@ export const  filimoBox2 = [
     {
         imageUrl: "assets/images/6.png",
         link: "www.aparat.com/video/video/embed/videohash/l78K9/vt/frame?t=0",
-        text: "چطور با اتصال کابل به تلویزیون قدیمی، فیلیو تماشا کنیم؟",
+        text: "چطور با اتصال کابل به تلویزیون قدیمی، فیلیمو تماشا کنیم؟",
     }
 ]
 export const filimoBox3 = [

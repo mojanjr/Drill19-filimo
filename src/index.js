@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import 'font-awesome/css/font-awesome.min.css';
 import './index.css';
-import App from './App';
+import App from './App'
 import reportWebVitals from './reportWebVitals';
 import {MovieList} from './components/movieList';
 import {VideoList} from './components/videoList';
@@ -18,7 +19,7 @@ root.render(
     </div>
     <div className="filimo-box">
       <div className="container2">
-        <VideoList data={filimoBox1} title="فیلیمو‌باکس چیست؟" />
+        <VideoList data={filimoBox1} title="فیلیمو‌باکس چیست؟" img src="https://www.filimo.com/assets/web/ui/img-23SjILqYCSaEPakKNJTVXw/campaigns/big-screen_v2/filimobox_colored.png"/>
         <VideoList data={filimoBox2} title="فیلیمو‌باکس چیست؟" />
         <VideoList data={filimoBox3} title="فیلیمو‌باکس چیست؟" />
       </div>

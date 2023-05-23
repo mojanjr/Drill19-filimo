@@ -9,7 +9,7 @@ export function VideoList(props) {
                         <img src={video.imageUrl}/>
                         <div className="button">
                             <div className="border"></div>
-                            <i className="fa-solid fa-play"></i>
+                            <i className={"fa-solid fa-play"}></i>
                         </div>
                         <h3>{video.text}</h3>
                     </a>
