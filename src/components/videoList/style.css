@@ -1,17 +1,17 @@
-/* @font-face {
+@font-face {
     font-family: Vazir;
-    src: url('./assets/fonts/vazir/Vazirmatn-Regular.woff2') format('woff2');
+    src: url('/assets/fonts/vazir/Vazirmatn-Regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: Vazir;
-    src: url('./assets/fonts/vazir/Vazirmatn-Black.woff2') format('woff2');
+    src: url('/assets/fonts/vazir/Vazirmatn-Black.woff2') format('woff2');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
-} */
+}
 *,
 *:after,
 *:before {
@@ -48,7 +48,6 @@ a {
 }
 .filimo-box {
     text-align: center;
-    position: relative;
 }
 .filimo-box .title {
     display: flex;
@@ -81,6 +80,9 @@ a {
     margin-right: 10px;
     color: #f89f3e;
     font-size: 15px;
+}
+.filimo-box .list-holder {
+    position: relative;
 }
 .filimo-box ul {
     display: flex;
@@ -142,7 +144,7 @@ a {
 }
 .filimo-box .arrows i {
     position: absolute;
-    top: 54%;
+    top: 40%;
     width: 40px;
     height: 40px;
     background: rgba(6, 6, 6, 0.6);
@@ -152,8 +154,8 @@ a {
     font-size: 20px;
 }
 .filimo-box .arrows i.fa-angle-right {
-    right: 14%;
+    right: 50px;
 }
 .filimo-box .arrows i.fa-angle-left {
-    left: 11%;
+    left: 10px;
 } 

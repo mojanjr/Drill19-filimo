@@ -27,12 +27,14 @@ export function VideoList(props) {
             <a className="button" href="https://www.filimo.com/filimobox">
                 <button>اطلاعات بیشتر<i className="fa-solid fa-arrow-left"></i></button>
             </a>
-            <ul>
-                {videoListSection()}
-            </ul>
-            <div className="arrows">
-                <i className="fa-solid fa-angle-right"></i>
-                <i className="fa-solid fa-angle-left"></i>
+            <div className="list-holder">
+                <ul>
+                    {videoListSection()}
+                </ul>
+                <div className="arrows">
+                    <i className="fa-solid fa-angle-right"></i>
+                    <i className="fa-solid fa-angle-left"></i>
+                </div>
             </div>
         </div>
     )
